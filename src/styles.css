@@ -1,26 +1,36 @@
-body {
-  margin: 40px 10px;
+:root {
+  --header-font: "Poppins", sans-serif;
+  --text-font: "Quicksand", sans-serif;
+  --header-font-colour: #ffeecb;
+}
+
+h1 {
+  font-family: var(--header-font);
+  color: var(--header-font-colour);
+  font-size: 68px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: var(--text-font);
+  color: var(--header-font-colour);
+  font-size: 18px;
+}
+
+.hero {
   background: linear-gradient(
-    to bottom,
+    45deg,
     #051937,
     #1a355d,
     #2e5487,
     #4176b2,
     #539ae0
   );
-  background-size: 400% 400%;
-}
-
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 68px;
-  color: #ffeecb;
+  padding: 100px 10px;
   text-align: center;
 }
 
-h2 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 18px;
-  color: #ffeecb;
-  text-align: center;
+.hero p {
+  color: var(--header-font-colour);
+  font-size: 26px;
 }

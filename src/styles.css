@@ -4,10 +4,14 @@
   --header-font-colour: #ffeecb;
 }
 
+body {
+  background: #051937;
+}
+
 h1 {
   font-family: var(--header-font);
   color: var(--header-font-colour);
-  font-size: 68px;
+  font-size: 98px;
   font-weight: bold;
 }
 
@@ -17,20 +21,40 @@ h2 {
   font-size: 18px;
 }
 
+hr {
+  color: whitesmoke;
+}
+
 .hero {
   background: linear-gradient(
-    45deg,
+    to top,
     #051937,
     #1a355d,
     #2e5487,
     #4176b2,
     #539ae0
   );
-  padding: 100px 10px;
+  padding: 290px 100px;
   text-align: center;
 }
 
 .hero p {
   color: var(--header-font-colour);
+  font-size: 26px;
+}
+
+.homepage-projects {
+  padding: 40px 10px;
+}
+
+.homepage-projects h3 {
+  color: var(--header-font-colour);
+  text-align: center;
+  font-size: 60px;
+}
+
+.homepage-projects p {
+  color: var(--header-font-colour);
+  text-align: center;
   font-size: 26px;
 }

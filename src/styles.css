@@ -202,6 +202,8 @@ hr {
   .homepage-footer {
     padding: 0;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
 
   .homepage-footer p {

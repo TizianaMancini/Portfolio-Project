@@ -4,7 +4,7 @@
   --header-font-colour: #ffeecb;
   --background-color: #051937;
   --box-shadow-black: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  --box-shadow-white: 5px 5px 20px rgb(255, 255, 255, 0.3);
+  --box-shadow-white: 5px 5px 10px rgb(255, 255, 255, 0.3);
 }
 
 body {
@@ -22,6 +22,14 @@ h2 {
   font-family: var(--text-font);
   color: var(--header-font-colour);
   font-size: 18px;
+}
+
+h3 {
+  font-family: var(--header-font);
+  color: var(--header-font-colour);
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
 }
 
 hr {
@@ -84,4 +92,37 @@ hr {
 
 :hover.carousel-project-link {
   cursor: pointer;
+}
+
+.contact-section-homepage {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.contact-section-homepage h3 {
+  padding-bottom: 60px;
+}
+
+.contact-section-homepage p {
+  color: var(--header-font-colour);
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.contact-section-homepage a {
+  color: var(--header-font-colour);
+  font-size: 26px;
+  text-align: center;
+  text-decoration: none;
+  padding: 30px 20px;
+  background: #5e7aae;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow-white);
+}
+
+.contact-section-homepage a:hover {
+  cursor: pointer;
+  background: #ad6574;
+  color: #000834;
 }

@@ -151,3 +151,46 @@ hr {
 .homepage-footer i:hover {
   cursor: pointer;
 }
+
+@media (max-width: 576px) {
+  .hero {
+    padding: 90px 10px;
+  }
+
+  h1 {
+    font-size: 42px;
+    padding: 5px 0;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .homepage-projects h3 {
+    font-size: 42px;
+    padding: 5px 0;
+    margin: 0 auto;
+  }
+
+  .homepage-projects p {
+    font-size: 18px;
+  }
+
+  .contact-section-homepage h3 {
+    font-size: 42px;
+    padding: 5px 0;
+    margin: 0 auto;
+  }
+
+  .contact-section-homepage p {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+  }
+} ;

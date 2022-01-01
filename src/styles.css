@@ -34,6 +34,11 @@ h3 {
   font-size: 60px;
 }
 
+p,
+a {
+  font-family: var(--text-font);
+}
+
 hr {
   color: whitesmoke;
 }
@@ -123,7 +128,7 @@ hr {
   font-size: 26px;
   text-align: center;
   text-decoration: none;
-  padding: 30px 20px;
+  padding: 25px 20px;
   background: #5e7aae;
   border-radius: 5px;
   box-shadow: var(--box-shadow-white);

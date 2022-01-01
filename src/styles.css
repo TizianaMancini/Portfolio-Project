@@ -3,6 +3,8 @@
   --text-font: "Quicksand", sans-serif;
   --header-font-colour: #ffeecb;
   --background-color: #051937;
+  --box-shadow-black: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow-white: 5px 5px 20px rgb(255, 255, 255, 0.3);
 }
 
 body {
@@ -49,8 +51,10 @@ hr {
 }
 
 .homepage-projects h3 {
+  font-family: var(--header-font);
   color: var(--header-font-colour);
   text-align: center;
+  font-weight: bold;
   font-size: 60px;
 }
 
@@ -58,10 +62,26 @@ hr {
   color: var(--header-font-colour);
   text-align: center;
   font-size: 26px;
+  padding: 20px 0;
 }
 
 .project-carousel {
   display: block;
   margin: 0 auto;
   max-width: 700px;
+  border: 5px;
+  border-color: whitesmoke;
+  box-shadow: var(--box-shadow-white);
+}
+
+.project-carousel h5 {
+  background: #000834;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow-black);
+}
+
+:hover.carousel-project-link {
+  cursor: pointer;
 }

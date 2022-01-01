@@ -38,6 +38,12 @@ hr {
   color: whitesmoke;
 }
 
+.navbar-color {
+  background: var(--background-footer);
+  color: #051937;
+  text-decoration: none;
+}
+
 .hero {
   background: linear-gradient(
     to top,

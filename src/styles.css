@@ -2,7 +2,9 @@
   --header-font: "Poppins", sans-serif;
   --text-font: "Quicksand", sans-serif;
   --header-font-colour: #ffeecb;
+  --footer-font-colour: #051937;
   --background-color: #051937;
+  --background-footer: #ffeecb;
   --box-shadow-black: 5px 5px 10px rgba(0, 0, 0, 0.3);
   --box-shadow-white: 5px 5px 10px rgb(255, 255, 255, 0.3);
 }
@@ -55,7 +57,7 @@ hr {
 }
 
 .homepage-projects {
-  padding: 40px 10px;
+  padding: 100px 10px;
 }
 
 .homepage-projects h3 {
@@ -100,7 +102,7 @@ hr {
 }
 
 .contact-section-homepage h3 {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 .contact-section-homepage p {
@@ -125,4 +127,21 @@ hr {
   cursor: pointer;
   background: #ad6574;
   color: #000834;
+}
+
+.homepage-footer {
+  background: var(--background-footer);
+  font-size: 26px;
+  text-align: center;
+  padding: 60px 10px;
+}
+
+.homepage-footer a {
+  color: var(--footer-font-colour);
+  font-size: 36px;
+  text-decoration: none;
+}
+
+.homepage-footer i:hover {
+  cursor: pointer;
 }

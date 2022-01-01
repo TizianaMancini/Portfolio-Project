@@ -191,7 +191,19 @@ hr {
   .contact-section-homepage p {
     font-size: 18px;
     padding: 0;
-    margin: 60px auto;
+    margin: 40px auto;
+  }
+
+  .contact-section-homepage a {
+    color: var(--header-font-colour);
+    background: #5e7aae;
+    box-shadow: var(--box-shadow-white);
+    font-size: 26px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin: 0 auto;
   }
 
   .button-link {
@@ -206,8 +218,12 @@ hr {
     justify-content: center;
   }
 
-  .homepage-footer p {
+  .homepage-footer a {
     font-size: 20px;
+  }
+
+  .homepage-footer i {
+    font-size: 30px;
     text-align: center;
     padding: 5px 0;
     margin: 0 auto;

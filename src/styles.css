@@ -178,7 +178,8 @@ hr {
 }
 
 .about-me-hero {
-  padding: 175px 0;
+  padding: 175px 0px;
+  margin: 0 auto;
   background: linear-gradient(
     to top,
     #051937,
@@ -241,7 +242,7 @@ hr {
   box-shadow: var(--box-shadow-white);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .hero {
     padding: 90px 10px;
   }
@@ -347,6 +348,10 @@ hr {
     font-size: 30px;
     padding: 5px 0;
     margin: 0 auto;
+  }
+
+  .certificate p {
+    text-align: center;
   }
 
   .certificate img {

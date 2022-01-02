@@ -5,6 +5,8 @@
   --footer-font-colour: #051937;
   --background-color: #051937;
   --background-footer: #ffeecb;
+  --background-button: #5e7aae;
+  --background-button-hover: #ad6574;
   --box-shadow-black: 5px 5px 10px rgba(0, 0, 0, 0.3);
   --box-shadow-white: 5px 5px 10px rgb(255, 255, 255, 0.3);
 }
@@ -37,6 +39,10 @@ h3 {
 p,
 a {
   font-family: var(--text-font);
+}
+
+a {
+  text-decoration: none;
 }
 
 hr {
@@ -129,14 +135,14 @@ hr {
   text-align: center;
   text-decoration: none;
   padding: 25px 20px;
-  background: #5e7aae;
+  background: var(--background-button);
   border-radius: 5px;
   box-shadow: var(--box-shadow-white);
 }
 
 .contact-section-homepage a:hover {
   cursor: pointer;
-  background: #ad6574;
+  background: var(--background-button-hover);
   color: var(--header-font-colour);
 }
 
@@ -173,14 +179,35 @@ hr {
 }
 
 .about-me-header p {
+  padding-top: 20px;
+}
+
+.about-me-header p {
   color: var(--header-font-colour);
   padding-top: 25px;
+  padding-bottom: 40px;
 }
 
 .about-me-header img {
   max-width: 400px;
   border-radius: 25px;
   box-shadow: var(--box-shadow-white);
+}
+
+.contact-link {
+  color: var(--header-font-colour);
+  background: var(--background-button);
+  font-size: 26px;
+  text-align: center;
+  padding: 25px 20px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow-white);
+}
+
+.contact-link:hover {
+  cursor: pointer;
+  background: var(--background-button-hover);
+  color: var(--header-font-colour);
 }
 
 @media (max-width: 576px) {
@@ -225,7 +252,7 @@ hr {
     margin: 40px auto;
   }
 
-  .contact-section-homepage a {
+  .button-link {
     color: var(--header-font-colour);
     background: #5e7aae;
     box-shadow: var(--box-shadow-white);
@@ -234,11 +261,6 @@ hr {
     text-decoration: none;
     padding: 15px 15px;
     border-radius: 5px;
-    margin: 0 auto;
-  }
-
-  .button-link {
-    text-align: center;
     margin: 0 auto;
   }
 

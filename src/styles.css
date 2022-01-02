@@ -286,15 +286,16 @@ hr {
     margin: 40px auto;
   }
 
-  .button-link {
+  .button-link a {
     color: var(--header-font-colour);
-    background: #5e7aae;
+    background: var(--background-button);
     box-shadow: var(--box-shadow-white);
     font-size: 26px;
     text-align: center;
     text-decoration: none;
     padding: 15px 15px;
     border-radius: 5px;
+    display: block;
     margin: 0 auto;
   }
 

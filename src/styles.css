@@ -283,6 +283,27 @@ a {
   text-align: center;
 }
 
+.contact-banner {
+  background: #5e7aae;
+}
+.contact-banner p {
+  font-size: 28px;
+  color: var(--header-font-colour);
+}
+
+.contact-banner a {
+  font-size: 20px;
+  padding: 20px 20px;
+  background: #f5f9ff;
+  color: var(--footer-font-colour);
+}
+
+.contact-banner a:hover {
+  background: var(--background-footer);
+  color: var(--footer-font-colour);
+  border: black;
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 90px 10px;

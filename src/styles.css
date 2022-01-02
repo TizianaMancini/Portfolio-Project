@@ -177,7 +177,8 @@ hr {
   font-size: 12px;
 }
 
-.about-me-hero {
+.about-me-header {
+  padding: 175px 0;
   background: linear-gradient(
     to top,
     #051937,
@@ -186,10 +187,7 @@ hr {
     #4176b2,
     #539ae0
   );
-}
-
-.about-me-header {
-  padding: 175px 0;
+  margin: 0 auto;
 }
 
 .about-me-header h1 {
@@ -330,7 +328,7 @@ hr {
     padding: 90px 0;
   }
 
-  .about-me-hero h1 {
+  .about-me-header h1 {
     font-size: 42px;
     padding: 5px 0;
     margin: 0 auto;

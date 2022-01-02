@@ -251,12 +251,31 @@ hr {
   box-shadow: var(--box-shadow-white);
 }
 
-.projects-page-container h1 {
+.project-title {
+  padding: 40px 0;
+}
+
+.page-container h1 {
   padding-top: 90px;
 }
 
-.projects-page-container h3 {
+.page-container h3 {
   font-size: 36px;
+}
+
+.page-container h4 {
+  font-size: 24px;
+  color: var(--header-font-colour);
+}
+
+.page-container p,
+a {
+  font-size: 20px;
+  color: var(--header-font-colour);
+}
+
+.page-container a:hover {
+  color: var(--background-button);
 }
 
 .project-card p,
@@ -381,11 +400,11 @@ a {
     margin: 0 auto;
   }
 
-  .projects-page-container h1 {
+  .page-container h1 {
     font-size: 42=8px;
   }
 
-  .projects-page-container h3 {
+  .page-container h3 {
     font-size: 24px;
   }
 }

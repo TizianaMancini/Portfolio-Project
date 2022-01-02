@@ -380,4 +380,12 @@ a {
     max-width: 100%;
     margin: 0 auto;
   }
+
+  .projects-page-container h1 {
+    font-size: 42=8px;
+  }
+
+  .projects-page-container h3 {
+    font-size: 24px;
+  }
 }

@@ -20,6 +20,7 @@ h1 {
   color: var(--header-font-colour);
   font-size: 98px;
   font-weight: bold;
+  text-align: center;
 }
 
 h2 {
@@ -34,6 +35,10 @@ h3 {
   text-align: center;
   font-weight: bold;
   font-size: 60px;
+}
+
+h5 {
+  font-family: var(--text-font);
 }
 
 p,
@@ -240,6 +245,37 @@ hr {
   margin: 0 60px;
   border-radius: 5px;
   box-shadow: var(--box-shadow-white);
+}
+
+.projects-page-container h3 {
+  font-size: 36px;
+}
+
+.project-card p,
+a {
+  text-align: center;
+}
+
+.contact-banner {
+  background: #5e7aae;
+}
+
+.contact-banner p {
+  font-size: 28px;
+  color: var(--header-font-colour);
+}
+
+.contact-banner a {
+  font-size: 20px;
+  padding: 20px 10px;
+  background: #f5f9ff;
+  color: var(--footer-font-colour);
+}
+
+.contact-banner a:hover {
+  background: var(--background-button-hover);
+  color: whitesmoke;
+  border: black;
 }
 
 @media (max-width: 768px) {

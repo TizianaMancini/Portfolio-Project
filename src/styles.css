@@ -169,6 +169,17 @@ hr {
   cursor: pointer;
 }
 
+.about-me-hero {
+  background: linear-gradient(
+    to top,
+    #051937,
+    #1a355d,
+    #2e5487,
+    #4176b2,
+    #539ae0
+  );
+}
+
 .about-me-header {
   padding: 175px 0;
 }

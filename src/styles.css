@@ -150,7 +150,7 @@ hr {
   background: var(--background-footer);
   font-size: 26px;
   text-align: center;
-  padding: 60px 10px;
+  padding: 50px 10px;
 }
 
 .homepage-footer a {
@@ -167,6 +167,14 @@ hr {
 
 .homepage-footer i:hover {
   cursor: pointer;
+}
+
+.open-source-link {
+  font-size: 12px;
+}
+
+.open-source-link a {
+  font-size: 12px;
 }
 
 .about-me-hero {

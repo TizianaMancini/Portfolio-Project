@@ -177,7 +177,7 @@ hr {
   font-size: 12px;
 }
 
-.about-me-header {
+.about-me-hero {
   padding: 175px 0;
   background: linear-gradient(
     to top,
@@ -187,7 +187,6 @@ hr {
     #4176b2,
     #539ae0
   );
-  margin: 0 auto;
 }
 
 .about-me-header h1 {
@@ -203,7 +202,7 @@ hr {
 
 .about-me-header img {
   max-width: 400px;
-  border-radius: 25px;
+  border-radius: 200px;
   box-shadow: var(--box-shadow-white);
 }
 
@@ -324,14 +323,24 @@ hr {
     font-size: 14px;
   }
 
-  .about-me-header {
+  .about-me-hero {
     padding: 90px 0;
+    text-align: center;
   }
 
   .about-me-header h1 {
-    font-size: 42px;
+    font-size: 36px;
     padding: 5px 0;
     margin: 0 auto;
+  }
+
+  .about-me-header p {
+    font-size: 14px;
+  }
+
+  .about-me-header img {
+    max-width: 75%;
+    margin-top: 50px;
   }
 
   .shecodes-certficates h3 {

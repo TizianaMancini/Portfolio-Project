@@ -163,6 +163,26 @@ hr {
   cursor: pointer;
 }
 
+.about-me-header {
+  padding: 175px 0;
+}
+
+.about-me-header h1 {
+  font-size: 68px;
+  padding-bottom: 25px;
+}
+
+.about-me-header p {
+  color: var(--header-font-colour);
+  padding-top: 25px;
+}
+
+.about-me-header img {
+  max-width: 400px;
+  border-radius: 25px;
+  box-shadow: var(--box-shadow-white);
+}
+
 @media (max-width: 576px) {
   .hero {
     padding: 90px 10px;

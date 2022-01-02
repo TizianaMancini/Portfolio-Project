@@ -274,6 +274,10 @@ hr {
     font-size: 18px;
   }
 
+  .carousel-caption a {
+    display: none;
+  }
+
   .contact-section-homepage h3 {
     font-size: 42px;
     padding: 5px 0;
@@ -315,5 +319,10 @@ hr {
     text-align: center;
     padding: 5px 0;
     margin: 0 auto;
+  }
+
+  .tiziana-name-link a,
+  p {
+    font-size: 14px;
   }
 }

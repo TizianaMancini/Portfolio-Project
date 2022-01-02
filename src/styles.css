@@ -179,10 +179,6 @@ hr {
 }
 
 .about-me-header p {
-  padding-top: 20px;
-}
-
-.about-me-header p {
   color: var(--header-font-colour);
   padding-top: 25px;
   padding-bottom: 40px;
@@ -208,6 +204,25 @@ hr {
   cursor: pointer;
   background: var(--background-button-hover);
   color: var(--header-font-colour);
+}
+
+.sshecode-certifcate-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shecodes-certficates p {
+  color: var(--header-font-colour);
+  font-size: 20px;
+  text-align: center;
+}
+
+.shecodes-certficates img {
+  max-width: 500px;
+  justify-content: space-evenly;
+  margin: 0 60px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow-white);
 }
 
 @media (max-width: 576px) {

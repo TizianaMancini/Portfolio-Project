@@ -182,6 +182,10 @@ hr {
   font-size: 12px;
 }
 
+.open-source-link a:hover {
+  text-decoration: underline;
+}
+
 .about-me-hero {
   padding: 175px 0px;
   margin: 0 auto;
@@ -247,6 +251,10 @@ hr {
   box-shadow: var(--box-shadow-white);
 }
 
+.projects-page-container h1 {
+  padding-top: 90px;
+}
+
 .projects-page-container h3 {
   font-size: 36px;
 }
@@ -254,28 +262,6 @@ hr {
 .project-card p,
 a {
   text-align: center;
-}
-
-.contact-banner {
-  background: #5e7aae;
-}
-
-.contact-banner p {
-  font-size: 28px;
-  color: var(--header-font-colour);
-}
-
-.contact-banner a {
-  font-size: 20px;
-  padding: 20px 10px;
-  background: #f5f9ff;
-  color: var(--footer-font-colour);
-}
-
-.contact-banner a:hover {
-  background: var(--background-button-hover);
-  color: whitesmoke;
-  border: black;
 }
 
 @media (max-width: 768px) {
